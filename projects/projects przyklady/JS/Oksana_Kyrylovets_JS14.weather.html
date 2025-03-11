@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT FETCH</title>
+<style>
+ label {
+    margin: 1%;
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: left;
+}
+ input {
+    margin: 0.5%;
+    padding: 0.5%;
+    font-size: 1em;
+    border-bottom: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+button{
+    border: 3px solid black;
+    background-color: rgb(192, 192, 236);
+    font-size: 1.5em;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+.dani{
+    margin: 3px;
+    padding: 3px;
+    font-size: 1em;
+    border-bottom: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center; 
+    width: 4em; 
+}
+
+</style>
+
+</head>
+<body>
+    <label for="city" >Enter the city</label>
+    <input type="text" id="city">
+
+    <button id="get-data-button" style="width: 9em">Go</button>
+
+    <div id="data-container">
+
+        <label for="temperature" >Temperature</label>
+        <input type="text" class="dani" name="temperature" id="temperature"><br>
+
+        <label for="humidity">Humidity</label>
+        <input type="text" class="dani" name="humidity" id="humidity"> <br>
+
+        <label for="wSpeed">Wind speed</label>
+        <input type="text" class="dani" name="wSpeed" id="wSpeed">
+   </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>

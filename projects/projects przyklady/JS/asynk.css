@@ -1,0 +1,21 @@
+button{
+     width: 33em;
+     height: 3em;
+     background-color: rgb(179, 179, 227) ;
+     border-radius: 15px;
+     border: solid black 2px;
+     margin: 2px;
+    
+}
+#film{
+     width: 30em;
+     height: 2em;
+     margin: 2px;
+     border-radius: 3px;
+}
+#yearRelese{
+     width: 25em;
+     height: 2em;  
+     margin: 2px; 
+     border-radius: 3px;
+}

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS PART II</title>
+    <style>
+        body {
+    background-color:hsl(172.7deg 33.18% 85.86%);   
+    width: 80%;
+    border: 3px solid #121212;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 30px 10px 150px;
+    font-size: 14px;
+      }
+        
+        .one{
+            background-color: white;
+            float: left;
+            max-width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .text{
+            float: right;
+            max-width: 90%;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+        }
+
+        .img {
+            float: left;
+            max-width: 20%;
+            height: 50%;
+            display: block;
+        }
+     
+        table ,td, th {
+            text-align:center ;
+            border: 3px black solid; 
+
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: 5px;
+            width: 6em;
+       }
+            
+         td {
+            height: 20px;
+            font-style: italic;
+            font-size: 15px;
+         }
+         .two {
+            float: left;
+            max-width: 90%;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+         }
+        
+        input {    
+    max-width: 100%;
+    border: 1px solid #9da7af;
+    background-color:rgb(224 224 238);
+    color: #000000;
+    vertical-align: middle;
+    border-width: 0 0 1px;
+    border-bottom: 1px solid black;
+ 
+           }
+    .form {
+        margin-left: 8px;
+        float: left;
+        max-width: 50%;
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        padding: 2px;
+         }
+    .form-1 {
+    width: 13em;
+    text-align: left;
+    display: inline-block;
+    margin: 5px;
+    }
+
+    .form-1b {
+    width: 38em;
+    display: inline-block;
+    }
+    .form-1c {
+        width: 24em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        display: inline-block;
+
+         }
+    
+        .nazva-1 {
+    width: 83%;
+    float: left;
+    margin: 2px;
+    }
+    .nazva_1a {
+    max-width: 15%;
+    float: right;
+       }
+    
+    .nazva-2a {
+        width: 100%;
+        float: left;
+        margin: 0px;
+    }
+
+    .nazva-2 {
+        width: 32%;
+        margin: 4px;
+        display: inline-block;
+    }
+    .form-2a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    height: 4em;
+}
+
+
+
+.nazva-3-1 {
+    width: 97%;
+    margin: 5px;
+    display: inline-block;
+}
+  
+.nazva-3{
+    width: 48%;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.form-3a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    height: 4em;
+    width: 99%;  
+}
+
+.text-1 {
+display: inline-block;
+width: 97%;
+height: 2em;
+padding: 10px;
+margin: 10px;
+}
+.form-4a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    height: 4em;
+    width: 97%;  
+    margin-left: 8px;
+}
+.ramka {
+    width: 100%;
+    display: inline-block;
+    
+
+}
+.ramka-1 {
+    width: 37%;
+    border: 3px solid #121212;
+    float: left;
+    margin: 10px; 
+    text-align: center;
+    padding: 5px;
+   
+}
+textarea {
+  width: 95%;
+  height: 80px;
+  border: 2px #ccc;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.ramka-2 {
+    width: 55%;
+    border: 3px solid #121212;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.ramka-2a {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 38px;
+    padding-bottom: 10px;
+}
+.ramka-2b{
+    width: 44%;
+    float: right;
+    text-align: left;
+}
+
+.nazva-4 {
+width: 100%;
+float: left;
+}
+
+.form-4 {
+    width: 33%;
+    margin: 3px;
+    display: inline-block;
+
+}
+.form-4b {
+    width: 42%;
+    margin: 3px;
+    display: inline-block;
+
+}
+
+.form-4c {
+    width: 9%;
+    margin: 3px;
+    display: inline-block;
+}
+.text-4 {
+    display: inline-block;
+    width: 97%;
+    height: 23em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.zaholovok-2 {
+    text-align: center;
+    border: 3px solid #000000;
+    background-color: #cfc5c5;
+}
+.text-2{
+    text-align: center;
+}
+.text-3 {
+    text-align: center;
+    border: 3px solid #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.text-3a {
+    width: 40%;
+    display: inline-block;
+}
+
+.form-5 {
+    width: 100%;
+    float: left;
+}
+
+.form-5a{
+    width: 98%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.payment-1 {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+.payment-2 {
+    width: 44%;
+    float: left;
+    padding: 10px;
+}
+.payment-3 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.form-5b{
+    width: 50%;
+    float: left;
+}
+.form-5c{
+    width: 49%;
+    float: left;
+
+}
+
+    </style>
+</head>
+
+
+<body>
+    <div class="one">
+       
+    <div class="img">
+        <img src="./foto.png" alt="FeatherRiverCamp">
+   
+    <table>
+        <tr>
+            <th colspan="2">OFFICE USE ONLY</th>
+        </tr>
+        <tr>
+            <td>Rcvd</td>
+            <td>Cnfrmd</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            
+            <td>Alpha</td>
+            <td>Access</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+</div>
+
+
+<div class="text">
+    <h1>2018 Youth Camp Registration Form</h1>
+    <p>Please visit <a href="https://featherrivercamp.com"> www.FeatherRiverCamp.com</a> prior to completing form for information on rates, dates, scholarships and
+        important registration information. To ensure timely registration processing, please print legibly and
+        complete all fields. If you have any questions, give us a call!
+        </p>
+    </div>
+
+
+    <div  class="two">
+        <form action="#" method="post">
+
+            <div class="nazva-1">
+<div class="form-1">
+<input type="text" id="camperName" size="50"/></br>
+<label for="camperName">Camper Name</label></br>
+</div>
+
+<div class="form-1">
+<input type="date" id="doh" size="30"/></br>
+<label for="doh">Birthdate</label></br>
+</div>
+
+<div class="form-1">
+<input type="number" id="grade"size="30"/></br>
+<label for="grade">Grade in Sept. ‘18</label></br>
+</div>
+
+<div class="form-1">
+<select name="gender" id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select></br>
+<label for="gender">Gender</label></br>
+</div>
+
+</div>
+
+<div class="nazva_1a">
+<div class="form">
+<label for="camp" style="font-size:12px",  text-align="center">This will be </br> my child’s</label></br>
+<input type="text" id="camp"/></br>
+    <label for="camp" style="font-size:12px",  text-align="center">Summer at</br> OFRC Youth Camp.</label></br>
+</div>
+</div>
+
+<div class="nazva-1">
+<div class="form-1b">
+<label for="size">T-Shirt Size <i>(Circle)</i>:</label>
+<input type="checkbox" id="YS" name="size" placeholder="YS" value="YS">YS
+<input type="checkbox" id="YM" name="size" placeholder="YM" value="YM">YM
+<input type="checkbox" id="YL" name="size" placeholder="YL" value="YL">YL
+<input type="checkbox" id="YL" name="size" placeholder="AS"  value="AS">AS
+<input type="checkbox" id="YL" name="size" placeholder="AM" value="AM">AM
+<input type="checkbox" id="YL" name="size" placeholder="AL" value="AL">AL
+<input type="checkbox" id="YL" name="size" placeholder="AXL" value="AXL">AXL
+<input type="checkbox" id="YL" name="size" placeholder="AXXL" value="AXXL">AXXL
+
+</br>
+</div>
+
+<div class="form-1c">
+    <label for="school">School:</label>
+    <input type="text" id="school" size="36"/>
+
+</div>
+</div>
+
+<div class="nazva-2a">
+<div class="form">
+<input type="text" name="streetAddress" id="streetAddress" size="35">  </br>
+ <label for="streetAddress">Street Address</label> </br>
+</div>
+
+<div class="form">
+ <input type="text" id="apt" name="apt"/></br>
+ <label for="apt">Apt#</label></br>
+</div>
+
+<div class="form">
+ <input type="text" name="city" id="city" size="25"/></br>
+ <label for="city">City</label></br>
+</div>
+
+<div class="form">
+ <input type="text" name="state" id="state" size="21"/></br>
+ <label for="state">State</label></br>
+</div>
+
+<div class="form">
+ <input type="text" name="zip" id="zip"/><br>
+ <label for="zip">Zip</label></br>
+</div>
+</div>
+ 
+<div class="nazva-2">
+<div class="form-2a">
+ <input type="text" name="pName" id="pName" size="42"/></br>
+ <label for="pName">Parent/Guardian Contact Name</label></br>
+</div>
+
+<div class="form-2a">
+    <input type="text" name="aName" id="aName" size="42"/></br>
+     <label for="aName">Additional Parent/Guardian</label></br>
+    </div>
+    
+    </div> 
+
+    <div class="nazva-2">
+<div class="form-2a">
+ <input type="tel" name="dPhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="42"></br>
+ <label for="dPhone">Day Phone:</label>
+<input type="radio"  id="Home" name="dPhone"><i>Home</i>
+<input type="radio"  id="Cell" name="dPhone"><i>Cell</i>
+<input type="radio"  id="Work" name="dPhone"><i>Work</i>
+</br>
+</div>
+
+<div class="form-2a">
+    <input type="tel" name="dPhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"size="42"></br>
+    <label for="dPhone">Day Phone:</label>
+   <input type="radio"  id="Home" name="dPhone"><i>Home</i>
+   <input type="radio"  id="Cell" name="dPhone"><i>Cell</i>
+   <input type="radio"  id="Work" name="dPhone"><i>Work</i>
+   </br>
+   </div>
+</div>
+
+<div class="nazva-2">
+<div class="form-2a">
+<input type="tel" name="ePhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="42"></br>
+<label for="ePhone">Evening Phone:</label>
+<input type="radio"  id="Home" name="ePhone"><i>Home</i>
+<input type="radio"  id="Cell" name="ePhone"><i>Cell</i>
+<input type="radio"  id="Work" name="ePhone"><i>Work</i>
+</br>
+</div>
+
+
+<div class="form-2a">
+<input type="tel" name="ePhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="42"></br>
+<label for="ePhone">Evening Phone:</label>
+<input type="radio"  id="Home" name="ePhone"><i>Home</i>
+<input type="radio"  id="Cell" name="ePhone"><i>Cell</i>
+<input type="radio"  id="Work" name="ePhone"><i>Work</i>
+</br>
+</div>
+</div>
+</div>
+
+<div class="nazva-3-1">
+    <div class="nazva-3">   
+<div class="form-3a">
+    <input type="text" name="pOFRC" id="pOFRC" size="100"/></br>
+    <label for="pOFRC">Have parents attended OFRC <i>(please provide details)?</i></label></br>  
+</div>
+
+<div class="form-3a">   
+    <input type="email"  name="email" id="email" size="100" ></br> 
+    <label for="email">Contact Email(s)</label> 
+</div>
+</div>
+
+<div class="nazva-3">
+<div class="form-3a">
+    <input type="text" name="pO" id="pO" size="100"/></br>
+    <label for="pO">Parent Occupation(s)</label></br>  
+</div>
+
+<div class="form-3a">
+    <input type="text" name="pOFRC" id="pOFRC" size="100"/></br>
+    <label for="pOFRC">How did you first hear about OFRC?<i> (specificity is appreciated!) </i></label></br>  
+</div>
+</div>
+</div>
+
+<div class="text-1">
+<p><i>Other than the parent/guardian names listed above, my child can be released to (name and phone number):</i>
+</p>
+</div>
+
+<div class="nazva-2">
+<div class="form-4a">
+    <input type="text" id="uName" size="45"/></br>
+    <label for="uName">Name</label></br>
+    </div>
+
+    <div class="form-4a">
+        <input type="text" id="uName" size="45"/></br>
+        <label for="uName">Name</label></br>
+ </div>
+</div>
+
+<div class="nazva-2">
+ <div class="form-4a">
+        <input type="text" id="rCamp" size="45"/></br>
+        <label for="rCamp">Relationship to Camper</label></br>
+        </div>
+
+        <div class="form-4a">
+            <input type="text" id="rCamp" size="45"/></br>
+            <label for="rCamp">Relationship to Camper</label></br>
+         </div>
+        </div>
+
+<div class="nazva-2">
+<div class="form-4a">
+<input type="tel" name="ePhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="45"></br>
+<label for="ePhone">Phone Number</label>
+</div>
+
+<div class="form-4a">
+<input type="tel" name="ePhone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="45"></br>
+<label for="ePhone">Phone Number</label>
+</div>
+</div>
+</form>
+
+
+<div class="ramka">
+<div class="ramka-1">
+<h2><b>ADDITIONAL INFORMATION & REQUESTS</b></h2>
+<form action="#" method="post">
+<label for="Request">Tent/Cabin Mate Request:</label>
+<input type="Request" name="Request" id="Request" size="36">
+<p><i>We will attempt to honor all requests. For more
+    information on our tent/cabin mate request policy,
+    see our website.
+</i></p>
+<p><i>Other Special Needs or Requests:</i></p>
+<form>
+ 
+    <textarea></textarea>
+  </form>
+<p><i>Camper health information will be collected on a separate
+    form that will be provided after receiving your completed
+    registration and deposit.
+</i> </p>
+</form>
+</div>
+
+<div class="ramka-2">
+<h2><b>CAMPER DEMOGRAPHICS</b></h2>
+<p>Many foundations require camper demographics to receive grant
+    funding. In addition, providing camper demographic information
+    may reduce the cost of leasing land from the Forest Service.
+    Participation in the following is optional, but very appreciated!</p>
+    <form action="#" method="post">
+        <div class="ramka-2a">
+        <h3><b>Ethnicity</b></h3>
+<input type="checkbox" name="ethnicity" id="African" value="African">
+<label for="African">- African American</label></br>
+
+<input type="checkbox" name="ethnicity" id="Asian" value="Asian">
+<label for="Asian">- Asian</label></br>
+
+<input type="checkbox" name="ethnicity" id="Caucasian" value="Caucasian">
+<label for="Caucasian">- Caucasian</label></br>
+
+<input type="checkbox" name="ethnicity" id="Latino" value="Latino">
+<label for="Latino">- Latino</label></br>
+
+<input type="checkbox" name="ethnicity" id="Islander" value="Islander">
+<label for="Islander">- Pacific Islander</label></br>
+
+<input type="checkbox" name="ethnicity" id="Mixed" value="Mixed">
+<label for="Mixed">- Mixed Race (check all)</label></br>
+
+<input type="checkbox" name="ethnicity" id="Other" value="Other">
+<label for="Other">- Other: </label>
+<input type="text" size="33"></br>
+</div>
+
+
+<div class="ramka-2b">
+    <h3><b>Annual Household Income</b></h3>
+<input type="checkbox" name="income" id="one" value="one">
+ <label for="one">- under $25,000</label></br>
+
+    <input type="checkbox" name="income" id="two" value="two">
+<label for="two">- $25,000 - $50,000 </label></br>
+
+<input type="checkbox" name="income" id="thre" value="thre">
+<label for="thre">- $50,000 - $75,000 </label></br>
+
+<input type="checkbox" name="income" id="four" value="four">
+<label for="four">- $75,000 - $100,000 </label></br>
+
+<input type="checkbox" name="income" id="five" value="five">
+<label for="five">- over $100,000</label></br>
+
+</div>
+</form>
+</div>
+
+
+    
+</div>
+
+<p>I verify that I am the parent/guardian of the above named child; I hereby consent that he/she may attend OFRC Youth Camp. I agree to meet
+    OFRC deadlines regarding payment and completing/returning all forms for my child.
+    </p>  
+    
+<div class="nava-4">
+<form action="#" method="post">
+
+<div class="form-4b">
+<input type="text" id="pgName" size="60" ></br>
+<label for="pgName"> Parent/Guardian Name (Print) </label>
+</div>
+
+
+<div class="form-4b">
+<input type="text" id="pgSignature" size="60"></br>
+<label for="pgSignature"> Parent/Guardian Signature</label>
+</div>
+
+<div class="form-4c">
+<input type="date" id="doh"></br>
+<label for="doh"> Date</label>
+</div>
+</form>
+</div>
+    <div class="text-4">
+<h2 class="zaholovok-2">PAYMENT INFORMATION</h2>
+<p class="text-2">A minimum 25% of total cost deposit is required upon time of registration to guarantee your child’s spot.<b> Paying by check helps Oakland
+    Feather River Camp by significantly reducing charge fees</b>. <u>Please make checks payable to Camps in Common</u>. If paying your deposit
+    by credit card, your remaining balance will be charged on June 1st, 2018. Please see website for change & cancellation policies.
+</p>
+<div class="form-5">
+    <div class="form-5a">
+        <div class="form-5b">
+<label for="deposit">Deposit Amount Enclosed/To Charge: $</label>
+<input type="text" id="deposit" size="40">
+</div>
+
+<div class="form-5b">
+<label for="donation">Optional Tax-Deductible Donation to Camps in Common: $</label>
+<input type="text" id="donation" size="26">
+</div>
+</div>
+
+
+<div class="form-5a">
+    <div class="payment-1">
+<label for="doh">Date</label>
+<input type="date" id="doh">
+</div>
+
+<div class="payment-2">
+<label for="pMetod">Payment Method <i>(circle)</i>:</label>
+<input type="checkbox" id="check" name="payment" value="Check">Check
+<input type="checkbox" id="CreditCard" name="payment" value="CreditCard">Credit Card
+<input type="checkbox" id="MoneyOrder" name="payment" value="MoneyOrder">Money Order
+</div>
+
+<div class="payment-3">
+<label for="cOrder">Check/Money Order #:</label>
+<input type="text" id="cOrder" size="26">
+</div>
+
+</div>
+
+<div class="form-5a">
+    <div class="form-5c">
+<label for="cc">CC#:</label>
+<input type="text" id="cc" size="52">
+</div>
+
+<div class="form-5c">
+<label for="doh">Exp Date:</label>
+<input type="date" id="doh" size="40">
+</div>
+</div>
+
+<div class="form-5a">
+<div class="form-5c">
+<label for="cName">Cardholder’s Name:</label>
+<input type="text" id="cName" size="40"></br>
+<label for="cName"><i style="margin-left: 40%;">(Please Print)</i></label>
+</div>
+
+<div class="form-5c">
+<label for="cSignature">Cardholder’s Signature:</label>
+<input type="text" id="cSignature" size="58">
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="text-3">
+
+<h2>WHAT TO DO NEXT</h2>
+<p><b>Please send completed registration form and payment to</b>: Camps in Common, PO Box 11061, Oakland, CA 94611(Up to
+    May 15) or Oakland Feather River Camp, PO Box 3229, Quincy, CA 95971 (after May 15)
+<br><span class="text-3a"><b>Email</b>: Info@FeatherRiverCamp.com</span> <span class="text-3a"><b>High Quality Faxes can be sent to</b>: 510-601-1595</span><br>
+    Once payment has been received and processed, you will receive an email with your confirmation letter, receipt and required forms.
+<br><input type="checkbox" name="" id="">Please check here if you’d like your confirmation letter mailed instead of emailed. </p>
+
+
+</div>
+
+   </div>
+
+</body>
+</html>
